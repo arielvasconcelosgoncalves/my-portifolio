@@ -1,5 +1,5 @@
 import {Container, Grid, styled, Typography} from "@mui/material"
-import Avatar from "../../../../assets/images/avatar.png"
+import Avatar from "../../../../assets/images/avatar.jpg"
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
@@ -30,7 +30,7 @@ const Hero = () =>{
                         <Typography color="primary.contrastText" variant="h2" textAlign="center">I'm a Computer Engineer</Typography>                       
                     </Grid>
                 </Grid>
-                <Grid container display="flex" justifyContent="end">
+                <Grid container display="flex" justifyContent="end" spacing={3}>
                     <Grid size={{ xs: 12, sm: 4 }} display="flex" justifyContent="center">
                         <StyledButton>
                             <FileDownloadIcon/>
