@@ -1,5 +1,5 @@
 {
-  "homepage": "http://{arielvasconcelosgoncalves}.github.io/{my-portifolio}",
+  "homepage": "https://portifolio-ariel.netlify.app",
   "name": "portifolio",
   "private": true,
   "version": "0.0.0",
@@ -8,10 +8,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-            
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
