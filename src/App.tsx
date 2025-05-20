@@ -8,11 +8,11 @@ const App: React.FC = () => {
 
   return (
     <>
-      <Navbar />
-      <HeroSection />
-      <AboutSection />
-      <ProjectsSection />
-      <Footer />
+          <Navbar />
+          <HeroSection />
+          <AboutSection />
+          <ProjectsSection />
+          <Footer />     
     </>
   )
 }
