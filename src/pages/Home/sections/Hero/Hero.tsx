@@ -4,7 +4,7 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
-
+import curriculo from "../../../../assets/pdfs/ariel_de_vasconcelos_goncalves.pdf"
 
 const Hero = () =>{
 
@@ -44,20 +44,25 @@ const Hero = () =>{
                 </Grid>
                 <Grid container display="flex" justifyContent="end" spacing={3} pt={3}>
                     <Grid size={{ xs: 12, sm: 4 }} display="flex" justifyContent="center">
+                        <a href={curriculo} download style={{ textDecoration: "none", width: "100%", display: "flex", justifyContent: "center", }}>
                         <StyledButton onClick={() => console.log("download")}>
                             <FileDownloadIcon/>
                             <Typography>
                             Baixar Currículo
-                            </Typography>
+                            </Typography> 
                         </StyledButton>
+                        </a>
+                        
                     </Grid>
                     <Grid size={{ xs: 12, sm: 4 }} display="flex" justifyContent="center">
+                        <a href={"mailto:ariel.goncalves@sou.unifeob.edu.br"} style={{ textDecoration: "none", width: "100%", display: "flex", justifyContent: "center", }}>
                         <StyledButton onClick={() => console.log("Contact")}>
                             <EmailIcon/>
                             <Typography>
                             Me Contate
                             </Typography>
                         </StyledButton>
+                        </a>
                     </Grid>
                 </Grid>
             </Container>

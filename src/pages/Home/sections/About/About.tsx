@@ -15,7 +15,7 @@ const AboutSection: React.FC = () => {
     }));
 
     const skillsSet = [
-        "Javascript", "Typescript", "React", "Next", "Git", "HTML", "CSS", "Cypress", "AWS", "GCP", "Material UI", "Figma"
+        "Javascript", "Typescript", "React", "Git", "HTML", "CSS", "AWS", "Material UI"
     ]
 
     return (
@@ -77,7 +77,7 @@ const AboutSection: React.FC = () => {
                 <Box mb={5}>
                     <Grid container spacing={3} justifyContent="center">
                         {skillsSet.map((skill, index) => (
-                            <Grid key={index} size={{xs:5, sm:4, md:2, lg:2}}>
+                            <Grid key={index} size={{xs:8, sm:6, md:3, lg:3}}>
                                 <StyledCard variant="outlined">
                                     {skill}
                                 </StyledCard>
