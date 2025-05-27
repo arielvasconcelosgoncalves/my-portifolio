@@ -31,7 +31,7 @@ const AboutSection: React.FC = () => {
                                 <WorkspacePremiumIcon />
                                 <Typography textAlign="center" fontWeight={600}>Profissional</Typography>
                                 <Typography textAlign="center">Analista</Typography>
-                                <Typography textAlign="center">Suprimentos (Compras)</Typography>
+                                <Typography textAlign="center">de Compras</Typography>
                             </StyledCard>
                         </AnimationComponent>
                         <AnimationComponent moveDirection="right">

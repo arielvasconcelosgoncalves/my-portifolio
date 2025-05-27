@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
                         </IconButton>
                     </Box>
                     <Typography textAlign="center">
-                        © 2025 Ariel Vasconcelos - All rights reserved
+                        © 2025 Ariel Vasconcelos - Todos os direitos reservados
                     </Typography>
                 </Container>
             </Box>
