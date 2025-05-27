@@ -1,6 +1,10 @@
 import { Box, Container, Grid, Typography, styled } from "@mui/material";
 import ProjectCard, { type ProjectCardProps } from "../../../../components/ProjectCard/ProjectCard";
 import AnimationComponent from "../../../../components/AnimationComponent/AnimationComponent";
+import livro from "../../../../assets/images/livros_vai_na_web.jpg";
+import api from "../../../../assets/images/api_livros.jpg";
+import calculadora from "../../../../assets/images/calculadora.jpg";
+import helper from "../../../../assets/images/helper.jpg";
 
 const ProjectsSection: React.FC = () => {
 
@@ -13,7 +17,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Livros Vai na Web",
             subtitle: "Jan 2025 - Fev 2025",
-            srcImg: "/src/assets/images/livros_vai_na_web.jpg",
+            srcImg: livro,
             description: "Descrição: Website para doação de livros, feito para conclusão do curso de Desenvolvedor FullStack do "+
             "Vai na Web, por meio dos métodos POST e GET, cadastramos e consultamos livros por meio de uma API Rest. Frontend e Backend"+
             "foram ambos desenvolvidos por mim no decorrer do curso. Foram utilizados hooks (useEffect, useState) e responsividade foi indispensável. ",
@@ -24,7 +28,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "API de Livros",
             subtitle: "Jan 2025 - Fev 2025",
-            srcImg: "/src/assets/images/api_livros.jpg",
+            srcImg: api,
             description: "Descrição: Uma API Rest que utiliza Flask, um microframework do python, que pode cadastrar livros por meio"+
             " do método POST e consultar para exibir livros doados por meio do método GET. A conexão com o banco de dados foi realizada "+
             "por meio da sqlite3. Essa API é utilizada no site Livros Vai na Web em tempo real, método POST na aba Quero Doar e o método GET em "+
@@ -36,7 +40,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Calculadora",
             subtitle: "Mai 2025 - Mai 2025",
-            srcImg: "/src/assets/images/calculadora.jpg",
+            srcImg: calculadora,
             description: "Descrição: Este é um projeto simples de uma calculadora funcional desenvolvida com HTML, "+
             "CSS e JavaScript puro. O objetivo deste projeto foi consolidar conhecimentos em manipulação do DOM, "+
             "eventos e lógica de programação, além de aplicar um pouco de estilização com foco em usabilidade e aparência agradável,"+
@@ -48,7 +52,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Helper - Site de Denúncias",
             subtitle: "Jan 2018 - Jun 2018",
-            srcImg: "/src/assets/images/helper.jpg",
+            srcImg: helper,
             description: "Descrição: Website de denúncias de crimes virtuais, criado como projeto de conclusão de curso "+
             "do curso técnico de informática da ETEC Arnaldo Pereira Cheregatti foi utilizado um modelo pré-pronto de "+
             "frontend (W3Layouts) e trabalhado o backend com php. Possui um sistema de login com acesso restrito para "+
