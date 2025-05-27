@@ -1,54 +1,63 @@
-# React + TypeScript + Vite
+# Portfólio Pessoal - Ariel Vasconcelos Gonçalves
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo(a) ao meu portfólio pessoal! Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades, projetos e experiências de forma profissional e moderna. Sinta-se à vontade para explorar e conhecer mais sobre mim.
 
-Currently, two official plugins are available:
+## 🌐 Demonstração
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[🔗 Acesse o Portfólio Online](https://portifolio-ariel.netlify.app/)
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Página inicial com introdução animada
+- Seção "Sobre mim"
+- Lista de projetos com links para os repositórios no GitHub
+- Formulário de contato com envio por e-mail
+- Layout responsivo (adaptado para mobile e desktop)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Tecnologias Utilizadas
+
+- [React.js](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Material UI](https://mui.com/) (Componentes e Estilização)
+
+## 🛠️ Instalação e Execução Local
+
+Para rodar este projeto localmente, siga os passos abaixo:
+
+```bash
+# Clone o repositório
+git clone https://github.com/arielvasconcelosgoncalves/my-portifolio.git
+
+# Acesse a pasta do projeto
+cd my-portifolio
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+- Depois disso, acesse http://localhost:5173 no seu navegador para visualizar o portfólio em execução.
+  
 ```
+my-portifolio/
+├── public/
+├── src/
+│   ├── assets/         # Imagens e ícones
+│   ├── components/     # Componentes reutilizáveis
+│   ├── pages/          # Páginas principais (Home, Sobre, Projetos, Contato)
+│   ├── styles/         # Arquivos de estilo
+│   └── main.tsx        # Ponto de entrada da aplicação
+├── vite.config.ts
+└── package.json
+```
+## 📌 Status do Projeto
+### 🚧 Em constante evolução — Novos projetos e melhorias estão sendo adicionados regularmente!
+
+## 🤝 Contribuições
+Este é um projeto pessoal e não está aberto a contribuições externas no momento. No entanto, sugestões e feedbacks são muito bem-vindos!
+
+## 📬 Contato
+Entre em contato comigo por e-mail: [ariel.goncalves@sou.unifeob.edu.br](mailto:ariel.goncalves@sou.unifeob.edu.br)
+Ou me encontre no LinkedIn: [Ariel Vasconcelos](https://www.linkedin.com/in/ariel-vasconcelos-aa4734200/)
