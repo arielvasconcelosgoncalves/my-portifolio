@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                         <IconButton onClick={() => window.open("https://github.com/arielvasconcelosgoncalves")}>
                             <GitHubIcon />
                         </IconButton>
-                        <IconButton onClick={() => window.open("https://www.linkedin.com/in/ariel-vasconcelos-aa4734200/")}>
+                        <IconButton onClick={() => window.open("https://www.linkedin.com/in/arielvasconcelosgoncalves/")}>
                             <LinkedInIcon />
                         </IconButton>
                         <IconButton href="mailto:ariel.goncalves@sou.unifeob.edu.br" target="_blank">
