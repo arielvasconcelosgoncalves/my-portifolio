@@ -1,4 +1,4 @@
-import {styled } from "@mui/material";
+import { styled } from "@mui/material";
 import type { ReactNode } from "react";
 
 interface StyledButtonProps {
@@ -6,9 +6,9 @@ interface StyledButtonProps {
     onClick: () => void
 }
 
-const StyledButton: React.FC<StyledButtonProps> = ({children, onClick}) =>{
+const StyledButton: React.FC<StyledButtonProps> = ({ children, onClick }) => {
 
-    const StyledButton = styled("button")(({theme}) => ({
+    const StyledButton = styled("button")(({ theme }) => ({
         backgroundColor: "transparent",
         border: `1px solid ${theme.palette.primary.contrastText}`,
         borderRadius: "3px",
@@ -17,6 +17,7 @@ const StyledButton: React.FC<StyledButtonProps> = ({children, onClick}) =>{
         color: theme.palette.primary.contrastText,
         display: "inline-flex",
         alignItems: "center",
+        cursor: "pointer",
         justifyContent: "center",
         gap: "10px",
         '&:hover': {
@@ -32,7 +33,7 @@ const StyledButton: React.FC<StyledButtonProps> = ({children, onClick}) =>{
             </StyledButton>
         </>
     )
-   
+
 }
 
 export default StyledButton;

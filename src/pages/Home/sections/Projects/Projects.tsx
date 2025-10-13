@@ -5,6 +5,8 @@ import livro from "../../../../assets/images/livros_vai_na_web.jpg";
 import api from "../../../../assets/images/api_livros.jpg";
 import calculadora from "../../../../assets/images/calculadora.jpg";
 import helper from "../../../../assets/images/helper.jpg";
+import fine from "../../../../assets/images/fine.png"
+import devburger from "../../../../assets/images/devburger.png"
 
 const ProjectsSection: React.FC = () => {
 
@@ -13,14 +15,33 @@ const ProjectsSection: React.FC = () => {
 
     }));
 
+
     const projects = [
+        {
+            title: "Fine - Controle Financeiro",
+            subtitle: "Set 2025 - Out 2025",
+            srcImg: fine,
+            description: "Descrição: Fine é uma aplicação web full stack voltada ao controle financeiro pessoal, com interface moderna e intuitiva. Permite o registro e categorização de receitas e despesas, exibição de gráficos interativos e autenticação segura via Firebase. O sistema facilita o acompanhamento do orçamento e a análise dos hábitos financeiros de forma prática.",
+            technologies: "Tecnologias: Typescript, React, Node.js, Express, MongoDB, Firebase",
+            websiteURL: "https://controle-financeiro-fine.netlify.app/",
+            codeURL: "https://github.com/arielvasconcelosgoncalves/fine",
+        },
+        {
+            title: "DevBurger - Sistema de Pedidos",
+            subtitle: "Jul 2025 - Set 2025",
+            srcImg: devburger,
+            description: "Descrição: O DevBurger é um projeto full stack que simula um sistema de delivery de hamburgueria, com interface moderna e integração com API de pagamentos (Stripe). Ele permite o cadastro de usuários, realização de pedidos, upload de imagens de produtos e administração do cardápio.",
+            technologies: "Tecnologias: React, Node.js, Express, MongoDB, PostgreSQL, Stripe API",
+            websiteURL: "https://github.com/arielvasconcelosgoncalves/projeto-devburger",
+            codeURL: "https://github.com/arielvasconcelosgoncalves/projeto-devburger",
+        },
         {
             title: "Livros Vai na Web",
             subtitle: "Jan 2025 - Fev 2025",
             srcImg: livro,
-            description: "Descrição: Website para doação de livros, feito para conclusão do curso de Desenvolvedor FullStack do "+
-            "Vai na Web, por meio dos métodos POST e GET, cadastramos e consultamos livros por meio de uma API Rest. Frontend e Backend"+
-            "foram ambos desenvolvidos por mim no decorrer do curso. Foram utilizados hooks (useEffect, useState) e responsividade foi indispensável. ",
+            description: "Descrição: Website para doação de livros, feito para conclusão do curso de Desenvolvedor FullStack do " +
+                "Vai na Web, por meio dos métodos POST e GET, cadastramos e consultamos livros por meio de uma API Rest. Frontend e Backend" +
+                "foram ambos desenvolvidos por mim no decorrer do curso. Foram utilizados hooks (useEffect, useState) e responsividade foi indispensável. ",
             technologies: "Tecnologias: HTML, Sass, Javascript",
             websiteURL: "https://livros-vai-na-web-ariel.netlify.app/",
             codeURL: "https://github.com/arielvasconcelosgoncalves/livros-vai-na-web",
@@ -29,10 +50,10 @@ const ProjectsSection: React.FC = () => {
             title: "API de Livros",
             subtitle: "Jan 2025 - Fev 2025",
             srcImg: api,
-            description: "Descrição: Uma API Rest que utiliza Flask, um microframework do python, que pode cadastrar livros por meio"+
-            " do método POST e consultar para exibir livros doados por meio do método GET. A conexão com o banco de dados foi realizada "+
-            "por meio da sqlite3. Essa API é utilizada no site Livros Vai na Web em tempo real, método POST na aba Quero Doar e o método GET em "+
-            "Livros Doados.",
+            description: "Descrição: Uma API Rest que utiliza Flask, um microframework do python, que pode cadastrar livros por meio" +
+                " do método POST e consultar para exibir livros doados por meio do método GET. A conexão com o banco de dados foi realizada " +
+                "por meio da sqlite3. Essa API é utilizada no site Livros Vai na Web em tempo real, método POST na aba Quero Doar e o método GET em " +
+                "Livros Doados.",
             technologies: "Tecnologias: Python (Flask), SQL",
             websiteURL: "https://livros-vai-na-web-ariel.netlify.app",
             codeURL: "https://github.com/arielvasconcelosgoncalves/api_livros",
@@ -41,10 +62,10 @@ const ProjectsSection: React.FC = () => {
             title: "Calculadora",
             subtitle: "Mai 2025 - Mai 2025",
             srcImg: calculadora,
-            description: "Descrição: Este é um projeto simples de uma calculadora funcional desenvolvida com HTML, "+
-            "CSS e JavaScript puro. O objetivo deste projeto foi consolidar conhecimentos em manipulação do DOM, "+
-            "eventos e lógica de programação, além de aplicar um pouco de estilização com foco em usabilidade e aparência agradável,"+
-            " para chegar assim o mais próximo possível das funcionalidades de uma calculadora.",
+            description: "Descrição: Este é um projeto simples de uma calculadora funcional desenvolvida com HTML, " +
+                "CSS e JavaScript puro. O objetivo deste projeto foi consolidar conhecimentos em manipulação do DOM, " +
+                "eventos e lógica de programação, além de aplicar um pouco de estilização com foco em usabilidade e aparência agradável," +
+                " para chegar assim o mais próximo possível das funcionalidades de uma calculadora.",
             technologies: "Tecnologias: HTML, CSS, Javascript",
             websiteURL: "https://calculadora-ariel.netlify.app/",
             codeURL: "https://github.com/arielvasconcelosgoncalves/calculadora",
@@ -53,10 +74,10 @@ const ProjectsSection: React.FC = () => {
             title: "Helper - Site de Denúncias",
             subtitle: "Jan 2018 - Jun 2018",
             srcImg: helper,
-            description: "Descrição: Website de denúncias de crimes virtuais, criado como projeto de conclusão de curso "+
-            "do curso técnico de informática da ETEC Arnaldo Pereira Cheregatti foi utilizado um modelo pré-pronto de "+
-            "frontend (W3Layouts) e trabalhado o backend com php. Possui um sistema de login com acesso restrito para "+
-            "usuários que vão receber as denúncias e acesso público para usuários que vão realizar as denúncias.",
+            description: "Descrição: Website de denúncias de crimes virtuais, criado como projeto de conclusão de curso " +
+                "do curso técnico de informática da ETEC Arnaldo Pereira Cheregatti foi utilizado um modelo pré-pronto de " +
+                "frontend (W3Layouts) e trabalhado o backend com php. Possui um sistema de login com acesso restrito para " +
+                "usuários que vão receber as denúncias e acesso público para usuários que vão realizar as denúncias.",
             technologies: "Tecnologias: HTML, PHP, CSS, Bootstrap, Javascript",
             websiteURL: "https://helper-ariel.netlify.app/",
             codeURL: "https://github.com/arielvasconcelosgoncalves/helper",
@@ -71,7 +92,7 @@ const ProjectsSection: React.FC = () => {
                 </Box>
                 <Grid container spacing={5} pb={3}>
                     {projects.map((project: ProjectCardProps, index: number) => (
-                        <Grid key={index} size={{md:6}}>
+                        <Grid key={index} size={{ md: 6 }}>
                             <AnimationComponent moveDirection={index % 2 == 0 ? "right" : "left"}>
                                 <ProjectCard
                                     title={project.title}
