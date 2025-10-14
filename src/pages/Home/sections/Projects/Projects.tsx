@@ -3,10 +3,10 @@ import ProjectCard, { type ProjectCardProps } from "../../../../components/Proje
 import AnimationComponent from "../../../../components/AnimationComponent/AnimationComponent";
 import livro from "../../../../assets/images/livros_vai_na_web.jpg";
 import api from "../../../../assets/images/api_livros.jpg";
-import calculadora from "../../../../assets/images/calculadora.jpg";
 import helper from "../../../../assets/images/helper.jpg";
 import fine from "../../../../assets/images/fine.png"
 import devburger from "../../../../assets/images/devburger.png"
+import convertMoney from "../../../../assets/images/convert-money-devclub.png";
 
 const ProjectsSection: React.FC = () => {
 
@@ -59,16 +59,13 @@ const ProjectsSection: React.FC = () => {
             codeURL: "https://github.com/arielvasconcelosgoncalves/api_livros",
         },
         {
-            title: "Calculadora",
-            subtitle: "Mai 2025 - Mai 2025",
-            srcImg: calculadora,
-            description: "Descrição: Este é um projeto simples de uma calculadora funcional desenvolvida com HTML, " +
-                "CSS e JavaScript puro. O objetivo deste projeto foi consolidar conhecimentos em manipulação do DOM, " +
-                "eventos e lógica de programação, além de aplicar um pouco de estilização com foco em usabilidade e aparência agradável," +
-                " para chegar assim o mais próximo possível das funcionalidades de uma calculadora.",
+            title: "Convert Money - Conversor de Moedas",
+            subtitle: "Jul 2025 - Ago 2025",
+            srcImg: convertMoney,
+            description: "Este projeto foi desenvolvido durante o curso do Dev Club na seção de Front-End para fins de aprendizado. O objetivo é criar uma aplicação simples de conversão de moedas utilizando HTML, CSS e JavaScript, consumindo dados de uma API de câmbio em tempo real. Atualmente ele têm capacidade de converter em tempo real as seguintes moedas: Real (BRL), Dólar (USD), Euro (EUR) e Bitcoin (BTC).",
             technologies: "Tecnologias: HTML, CSS, Javascript",
-            websiteURL: "https://calculadora-ariel.netlify.app/",
-            codeURL: "https://github.com/arielvasconcelosgoncalves/calculadora",
+            websiteURL: "https://convert-money.netlify.app/",
+            codeURL: "https://github.com/arielvasconcelosgoncalves/convert-money-devclub",
         },
         {
             title: "Helper - Site de Denúncias",
