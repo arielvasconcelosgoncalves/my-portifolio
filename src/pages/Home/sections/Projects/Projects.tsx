@@ -36,7 +36,7 @@ const ProjectsSection: React.FC = () => {
       technologies:
         "Tecnologias: React, Node.js, Express, MongoDB, PostgreSQL, Stripe API",
       websiteURL:
-        "https://github.com/arielvasconcelosgoncalves/projeto-devburger",
+        "https://devburger-ariel.netlify.app/",
       codeURL: "https://github.com/arielvasconcelosgoncalves/projeto-devburger",
     },
     {
